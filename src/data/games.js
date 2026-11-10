@@ -1,0 +1,32 @@
+import lunarDrift from '../assets/lunar-drift.svg'
+import emberbound from '../assets/emberbound.svg'
+import breakthroughImage from '../assets/portfolio/pptx/image1.png'
+import kidsGameImage from '../assets/portfolio/pptx/image2.png'
+import kaijuImageOne from '../assets/portfolio/pptx/image3.png'
+import kaijuImageTwo from '../assets/portfolio/pptx/image4.png'
+import tetrisImageOne from '../assets/portfolio/pptx/image5.png'
+import tetrisImageTwo from '../assets/portfolio/pptx/image6.png'
+
+const projectImage = (src, alt) => [{ src, alt }]
+
+export const games = [
+  { title: 'U-Coinville', category: 'Client Project', description: 'I created mini-games for a browser-based metaverse that introduces products through an explorable world.', images: projectImage(lunarDrift, 'Generic artwork for the U-Coinville browser game project'), gameUrl: '', role: 'Game developer · Taktyl Studios', platform: 'Browser', genre: 'Gamified promotion', technologies: ['Unity', '3D'] },
+  { title: 'Breakthrough', category: 'Client Project', description: 'I transformed a personal-finance board game into a networked multiplayer experience using Photon PUN2.', images: projectImage(breakthroughImage, 'Breakthrough multiplayer gameplay screenshot from the original presentation'), gameUrl: 'https://play.google.com/store/apps/details?id=com.taktylstudios.breakthrough&hl=en&gl=US', role: 'Multiplayer developer · Taktyl Studios', platform: 'Android · iOS', genre: 'Educational board game', technologies: ['Unity', 'Photon PUN2', 'C#'] },
+  { title: 'Kids Game', category: 'Client Project', description: 'I led development on a toddler-focused game built around a client mascot, implementing mini-games and integrating Unity Addressables.', images: projectImage(kidsGameImage, 'Kids game jigsaw puzzle screenshot from the original presentation'), gameUrl: '', role: 'Development lead · Taktyl Studios', platform: 'Android · iOS', genre: 'Toddler mini-games', technologies: ['Unity', 'Addressables', 'C#'] },
+  { title: 'Kaiju Survivor', category: 'Indie game', description: 'I implemented skills and enemy formation systems as the gameplay programmer for this PvE roguelite hyper-casual game presented at PGDX 2024.', images: [{ src: kaijuImageOne, alt: 'Kaiju Survivor gameplay screenshot showing an enemy formation' }, { src: kaijuImageTwo, alt: 'Kaiju Survivor gameplay screenshot showing combat gameplay' }], gameUrl: '', role: 'Gameplay programmer · ThinkBIT Solutions Inc.', platform: 'Android · iOS', genre: 'PvE roguelite', technologies: ['Unity', '2D', 'C#'] },
+  { title: 'Tetris Block Party', category: 'Indie game', description: 'I prototyped gameplay features, animation changes, and alternate logic flows for this mobile block puzzle game.', images: [{ src: tetrisImageOne, alt: 'Tetris Block Party gameplay screenshot showing a completed board' }, { src: tetrisImageTwo, alt: 'Tetris Block Party gameplay screenshot showing blocks in play' }], gameUrl: 'https://play.google.com/store/apps/details?id=com.playstudios.tetrisblockparty&hl=en&pli=1', role: 'Programmer · PlayStudios Inc.', platform: 'Android · iOS', genre: 'Puzzle game', technologies: ['Unity', 'C#', 'Prototyping'] },
+  { title: 'Hole.io', category: 'Side Games', description: 'I built this arcade prototype where players control a hole, swallow objects, and grow with every successful pickup.', images: projectImage(emberbound, 'Generic artwork for the Hole.io arcade prototype'), gameUrl: 'https://drive.google.com/file/d/1Rs1_yyhZb_4QKD5usxNT_XRYjj5YqkDY/view?usp=sharing', role: 'Solo developer', platform: 'Prototype', genre: 'Arcade', technologies: ['Unity', 'C#'] },
+  { title: 'Tower of Hanoi', category: 'Side Games', description: 'I built this math puzzle game around solving the classic ring-transfer challenge in the fewest possible moves.', images: projectImage(lunarDrift, 'Generic artwork for the Tower of Hanoi puzzle game'), gameUrl: 'https://drive.google.com/file/d/14K8v3unniFKFMOKW9UsoPOJmTbZ0q2oG/view?usp=sharing', role: 'Solo developer', platform: 'Prototype', genre: 'Math puzzle', technologies: ['Unity', 'C#'] },
+  { title: 'Helix Jump', category: 'Side Games', description: 'I built this arcade prototype where players guide a ball down a tower while avoiding red platforms.', images: projectImage(emberbound, 'Generic artwork for the Helix Jump arcade game'), gameUrl: 'https://drive.google.com/file/d/13M_D_PrREHP6gryhLtBBIrmfX_e3t7_U/view?usp=sharing', role: 'Solo developer', platform: 'Prototype', genre: 'Arcade', technologies: ['Unity', 'C#'] },
+  { title: 'Block Blast', category: 'Side Games', description: 'I built this puzzle prototype where players place Tetris-like blocks on a grid to complete lines.', images: projectImage(lunarDrift, 'Generic artwork for the Block Blast puzzle game'), gameUrl: 'https://drive.google.com/file/d/1_yB_wpneLK4hmboqo555XsEOpxHkM9vu/view?usp=drive_link', role: 'Solo developer', platform: 'Prototype', genre: 'Puzzle', technologies: ['Unity', 'C#'] },
+]
+
+export const experience = [
+  { company: 'HPL Gamedesign Corp', role: 'Unity Game Developer', dates: '03/2025 – Present', details: 'I build Luna playable ads in 2D and 3D with 2–3 day turnaround, polish responsive UI and animation feedback, and optimize builds to a minimum 5 MB target.' },
+  { company: 'PlayStudios Orion', role: 'Unity Developer', dates: '07/2025 – 03/2026', details: 'I prototyped gameplay features for a live mobile game, built UI systems and animations, improved game feel, and maintained a large legacy Unity/C# codebase.' },
+  { company: 'ThinkBIT Solutions Inc.', role: 'Unity Game Developer', dates: '01/2024 – 04/2025', details: 'I implemented gameplay mechanics and interactive elements for an indie title, developed 2D mobile games for Android and iOS, and collaborated with design, art, and QA teams.' },
+  { company: 'Taktyl Studios', role: 'Junior Game Developer', dates: '04/2022 – 01/2024', details: 'I implemented Photon PUN multiplayer systems, REST API and PlayFab integrations, UI systems and animations, and cross-platform Android/iOS builds.' },
+  { company: 'Ntek Systems Inc.', role: 'Unity Programmer', dates: '09/2021 – 04/2022', details: 'I maintained and expanded Unity C# scripts and scenes, addressed integration-test feedback, and improved development workflows and code quality.' },
+]
+
+export const skills = ['Unity Engine', 'C#', 'Git', 'SOLID', 'UniTask', 'Luna Playworks', 'DOTween', 'VS Code']

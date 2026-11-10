@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Emberbound</title><desc id="desc">A warm fantasy village at dusk.</desc>
+  <defs><linearGradient id="dusk" y2="1"><stop stop-color="#182848"/><stop offset="1" stop-color="#d26b43"/></linearGradient></defs>
+  <rect width="1200" height="760" fill="url(#dusk)"/><circle cx="230" cy="180" r="70" fill="#ffd294" opacity=".75"/><path d="M0 430 235 250 410 420 640 190 880 425 1070 265 1200 430v330H0z" fill="#262541"/><path d="M0 560 210 400 400 550 620 350 810 560 1020 400 1200 540v220H0z" fill="#18172a"/>
+  <path d="M435 760V490l125-105 125 105v270z" fill="#8d493d"/><path d="m410 490 150-140 150 140z" fill="#3b2942"/><rect x="510" y="560" width="55" height="78" fill="#291f31"/><rect x="615" y="545" width="42" height="45" fill="#ffd16e"/><path d="M590 690q60-75 120 0" fill="none" stroke="#ffb54e" stroke-width="10"/><g fill="#ffc46e"><circle cx="170" cy="540" r="12"/><circle cx="260" cy="600" r="9"/><circle cx="900" cy="530" r="13"/></g>
+</svg>

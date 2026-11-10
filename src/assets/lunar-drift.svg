@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Lunar Drift</title><desc id="desc">A glowing spacecraft racing past a purple moon.</desc>
+  <defs><linearGradient id="sky" x2="1" y2="1"><stop stop-color="#11153b"/><stop offset="1" stop-color="#512f76"/></linearGradient><linearGradient id="trail"><stop stop-color="#66e3ff" stop-opacity="0"/><stop offset="1" stop-color="#66e3ff"/></linearGradient></defs>
+  <rect width="1200" height="760" fill="url(#sky)"/><circle cx="885" cy="215" r="160" fill="#f6c9dd" opacity=".85"/><circle cx="835" cy="170" r="35" fill="#d49bbf" opacity=".55"/><circle cx="970" cy="280" r="24" fill="#d49bbf" opacity=".55"/>
+  <path d="M0 630 Q280 470 620 620 T1200 540V760H0Z" fill="#191735"/><path d="M0 665 Q340 530 680 680 T1200 605" fill="none" stroke="#7957bf" stroke-width="5" opacity=".6"/>
+  <path d="M165 520 L530 400" stroke="url(#trail)" stroke-width="18"/><path d="m470 380 120 35-90 77-95-35z" fill="#62ddff"/><path d="m495 397 78 20-59 48-62-22z" fill="#f4f5ff"/><circle cx="520" cy="421" r="9" fill="#ffbe67"/>
+  <g fill="#fff"><circle cx="130" cy="120" r="3"/><circle cx="300" cy="220" r="4"/><circle cx="615" cy="125" r="3"/><circle cx="1080" cy="100" r="3"/><circle cx="1080" cy="430" r="4"/></g>
+</svg>
