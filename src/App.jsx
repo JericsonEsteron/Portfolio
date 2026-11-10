@@ -31,9 +31,9 @@ function GameCard({ game }) {
             ))}
           </div>
         )}
-        <span className="media-label">
-          {playable ? 'Playable ad · developer work' : 'Project case study'}
-        </span>
+        {playable && (
+          <span className="media-label">Playable ad · developer work</span>
+        )}
       </div>
 
       <div className="game-copy">
@@ -157,7 +157,7 @@ export default function App() {
           <p className="eyebrow">I build Unity games · gameplay systems · mobile experiences</p>
           <h1 id="hero-title">Jericson<br /><em>Esteron.</em></h1>
           <p className="hero-intro">
-            I’m a game developer with 4+ years of experience turning ideas into responsive,
+            I’m a game developer with 5 years of experience turning ideas into responsive,
             production-ready games, prototypes, and playable ads.
           </p>
           <a className="button button-primary" href="#about">
