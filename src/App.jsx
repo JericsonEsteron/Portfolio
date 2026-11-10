@@ -5,7 +5,11 @@ import { decodePlayableSource } from './utils/playableSource.js'
 import portfolioPdf from '../Contents/Portfolio_JERICSON_ESTERON_3.pdf'
 import cvPdf from '../Contents/CV_2026_Jericson_Esteron.pdf'
 
-const gameCategories = ['Client Project', 'Indie game', 'Side Games']
+const gameCategories = [
+  { value: 'Client Project', label: 'External Project' },
+  { value: 'Indie game', label: 'Internal Projects' },
+  { value: 'Side Games', label: 'Prototype' },
+]
 
 function GameCard({ game }) {
   const playable = game.playableAd
@@ -177,12 +181,12 @@ export default function App() {
           </div>
 
           {gameCategories.map((category) => {
-            const categoryGames = games.filter((game) => game.category === category)
+            const categoryGames = games.filter((game) => game.category === category.value)
 
             return (
-              <section className="game-category" key={category} aria-labelledby={`${category}-title`}>
+              <section className="game-category" key={category.value} aria-labelledby={`${category.value}-title`}>
                 <div className="category-heading">
-                  <h3 id={`${category}-title`}>{category}</h3>
+                  <h3 id={`${category.value}-title`}>{category.label}</h3>
                 </div>
                 <div className="game-grid">
                   {categoryGames.map((game) => <GameCard key={game.title} game={game} />)}

@@ -34,9 +34,7 @@ export const playableAds = [
   { title: 'Groom & Bride', format: 'Interactive playable ad', source: groomBride, poster: groomBridePoster },
   { title: 'Kittens & Seats', format: 'Interactive playable ad', source: kittensSeats, poster: kittensSeatsPoster },
   { title: 'Simple Title Duel', format: 'Interactive playable ad', source: simpleTitleDuel, poster: simpleTitleDuelPoster },
-  { title: 'Default Creative', format: 'Interactive playable ad', source: defaultCreative, poster: defaultCreativePoster },
   { title: 'Sports Progression', format: 'Interactive playable ad', source: sportsProgression, poster: sportsProgressionPoster },
   { title: 'Words Copy', format: 'Interactive playable ad', source: wordsCopy, poster: wordsCopyPoster },
-  { title: 'Grlanot PI', format: '15-click playable ad', source: grlanotPi, poster: grlanotPiPoster },
   { title: 'Wood PI', format: '15-click playable ad', source: woodPi, poster: woodPiPoster },
 ]
